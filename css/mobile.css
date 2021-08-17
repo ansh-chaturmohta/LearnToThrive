@@ -130,8 +130,12 @@
 		margin: 0 auto;
 		width: auto;
 	}
+	#body .header div .sidebar .pod video{
+		width : 100%;
+	}
 	#body .header div ul li div, #body .header div .article, #body .header div .sidebar {
-		float: none;
+		float: left;
+
 		margin: 0;
 		padding: 10% 0;
 		width: 100%;
