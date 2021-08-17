@@ -866,6 +866,25 @@ img {
 #body .header div ul li div a.more:hover {
 	background-color: #620031;
 }
+#body .header div a.more {
+	background-color: #3c0f38;
+	color: #ffffff;
+	display: block;
+	float: right;
+	font-family: Arial;
+	font-size: 14px;
+	font-weight: normal;
+	height: 31px;
+	line-height: 31px;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	text-transform: uppercase;
+	width: 120px;
+}
+#body .header div a.more:hover {
+	background-color: #620031;
+}
 #body .header div img {
 	display: block;
 	margin: 0 auto;
@@ -914,6 +933,9 @@ img {
 }
 #body .header div .article {
 	float: left;
+	color: white;
+	font-family: ui-rounded-circle;
+	font-size: 34px;
 	margin: 0 40px 0 10px;
 	padding: 0;
 	width: 560px;
@@ -992,12 +1014,12 @@ img {
 	text-align: left;
 	width: auto;
 }
-#body .header div .article ul li p a {
+#body .header div .article a {
 	color: #FFFFFF;
 	display: inline;
 	float: none;
-	font-family: Arial;
-	font-size: 14px;
+	font-family: ui-rounded-circle;
+	font-size: 24px;
 	font-weight: normal;
 	height: auto;
 	line-height: 24px;
@@ -1006,7 +1028,7 @@ img {
 	text-decoration: underline;
 	width: auto;
 }
-#body .header div .article ul li p a:hover {
+#body .header div .article a:hover {
 	color: #a3a3a3;
 }
 #body .header div .article ul li a.more {
@@ -1145,6 +1167,10 @@ img {
 	width: auto;
 }
 #body .header div .sidebar ul li ul li a img:hover {
+	filter: alpha(opacity=70);/* Needed for IE8 and old versions */
+	opacity: 0.7;
+}
+#body .header div .sidebar ul li ul li a h2:hover {
 	filter: alpha(opacity=70);/* Needed for IE8 and old versions */
 	opacity: 0.7;
 }
@@ -1418,8 +1444,8 @@ img {
 	width: 100%;
 }
 #mylogo {
-	width: 150px;
-	height: 150px;
+	width: 125px;
+	height: 125px;
 }
 #myvid {
 	height: 218px;
@@ -1436,4 +1462,7 @@ img {
 } */
 .aab {
 	background-color: rgb(0 44 7 / 91%);
+}
+.pod {
+	align-items: center;
 }
